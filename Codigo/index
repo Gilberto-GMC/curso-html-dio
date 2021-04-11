@@ -3,22 +3,23 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Gilberto Claudino</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	
 	<body>
 		<header>
 			<img src="blockchain.jpg" alt="ilustração sobre blockchain" height="300px" width="100%">
-			<h1>Gilberto Claudino</h1>
+			<h1 id="title">Gilberto Claudino</h1>
 		</header>
 		
 		<section>
 			<header>
-				<h2>Posts</h2>
+				<h2 class="subtitle">Posts</h2>
 			</header>
 			
 			<article>
 				<header>
-					<h3>Post #1</h3>
+					<h3 class="post_title">Post #1</h3>
 				</header>
 				<p>
 					<a href="https://www.linkedin.com/in/gilberto-marques-claudino-259a5220a/" target="_blank">
