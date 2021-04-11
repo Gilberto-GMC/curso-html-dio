@@ -1,8 +1,70 @@
+body {
+	background: #DDDDDD;
+	font-family: Verdana;
+	max-width: 900px;
+	margin: auto;
+}
+
+a {
+	text-decoration: underline;
+	color: blue;
+	font-size: 18px;
+}
+
+.texto {
+	text-indent: 30px;
+	text-align: justify;
+}
+
+
+.topo_image{
+	height: 250px;
+	width: 98%;
+	margin-bottom: 20px;
+	border: solid 10px #EEEEEE;
+	border-radius: 5px;	
+}
+
+.foto_perfil{
+	height: 100px;
+	width: 100px;
+	border: solid 10px #EEEEEE;
+	border-radius: 50%;
+}
+
 #title, .subtitle, .post_title {
-	color: blue; 
+	color: #AAAAAA; 
 }
 
 .post_title{
 	font-size: 16px;
 	font-style: italic;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.post {
+	background: white;
+	padding: 15px;
+	border: 10px solid #EEEEEE;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.post_content{
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.post_image{
+	margin-bottom: 15px;
+}
+
+.contact_list{
+	list-style-type: none;
+	padding-left: 2px;
+}
+
+.contact_list li a {
+	text-decoration: none;
 }

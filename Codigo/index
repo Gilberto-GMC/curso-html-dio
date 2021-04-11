@@ -8,8 +8,14 @@
 	
 	<body>
 		<header>
-			<img src="blockchain.jpg" alt="ilustração sobre blockchain" height="300px" width="100%">
-			<h1 id="title">Gilberto Claudino</h1>
+			<img src="blockchain.jpg" alt="ilustração sobre blockchain" class="topo_image">
+
+			<img src="perfil.jpg" alt="foto do perfil" class="foto_perfil">
+
+			<h1 id="title">Gilberto Marques Claudino</h1>
+			<a href="https://www.linkedin.com/in/gilberto-marques-claudino-259a5220a/" target="_blank">
+						Perfil do Linkedin
+					</a>
 		</header>
 		
 		<section>
@@ -17,44 +23,36 @@
 				<h2 class="subtitle">Posts</h2>
 			</header>
 			
-			<article>
+			<article class="post" >
 				<header>
 					<h3 class="post_title">Post #1</h3>
 				</header>
-				<p>
-					<a href="https://www.linkedin.com/in/gilberto-marques-claudino-259a5220a/" target="_blank">
-						Perfil do Linkedin
-					</a><br>
+				<p class="post_content">
+					
+					<img src="blockchain2.jpg" alt="blockchain" width="100%" class="post_image">
 
-					<Lorem>
-						ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem
-				</Lorem>
+					<p class="texto">
+						A tecnologia Blockchain nada mais é do que um livro de razão pública (ou livro contábil) que faz o registro de uma transação de moeda virtual (a mais popular delas é o Bitcoin), de forma que esse registro seja confiável e imutável.
 
-
-					<a href="mailto:gil.developer.program@gmail.com"> Meu e-mail</a>
-
+						Ou seja, a blockchain registra informações como: a quantia de bitcoins (ou outras moedas) transacionadas, quem enviou, quem recebeu, quando essa transação foi feita e em qual lugar do livro ela está registrada. Isso mostra que a transparência é um dos principais atributos da blockchain.
+					</p>
 					
 				</p>
 			</article>
 		</section>
 
 		<footer>
-			<ol>
+			<ul class="contact_list">
 				<li>
-					<a href="mailto:gil.developer.program@gmail.com">Meu e-mail</a>
+					<a href="mailto:gil.developer.program@gmail.com">E-mail</a>
 				</li>
 				<li>
-					<a href="www.github.com/Gilberto-GMC.com">Meu github</a>
+					<a href="https://github.com/Gilberto-GMC/curso-html-dio">Github</a>
 				</li>
 				<li>
-					<a href="www.goole.com.br">Pesquisa no google</a>
+					<a href="https://twitter.com/@gilbertoClaud19">Twitter</a>
 				</li>
-			</ol>
+			</ul>
 			
 		</footer>
 
